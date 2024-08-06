@@ -29,6 +29,8 @@ public class LaunchBrowser {
 		WebElement cont_but = driver.findElement(By.xpath("//input[@class='a-button-input']"));
 		cont_but.click();
 		
+		driver.close();
+		
 		
 				
 	}
